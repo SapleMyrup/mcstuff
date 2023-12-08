@@ -1,6 +1,7 @@
 
 #!/bin/bash
 #  Replace <YourMinecraftDirectory> dir where server FOLDER is located
+# usage ./update.sh https://mediafilez.forgecdn.net/files/4931/43/Server-Files-0.2.27.zip 0.2.25
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <New Version URL> <Old Version Number>"
