@@ -1,7 +1,6 @@
-update.sh
 
 #!/bin/bash
-
+#  Replace <YourMinecraftDirectory> dir where server FOLDER is located
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <New Version URL> <Old Version Number>"
